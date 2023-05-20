@@ -23,6 +23,7 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: build:prod # will run `yarn build:prod` command
+          dir: 'frontend'
           
       - name: Run test in sub-folder
         uses: borales/actions-yarn@v4
