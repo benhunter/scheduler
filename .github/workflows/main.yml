@@ -1,6 +1,8 @@
 name: CI
 on: [push]
 
+  # Nice Reference
+  # https://michaelcurrin.github.io/code-cookbook/recipes/ci-cd/github-actions/workflows/node/yarn.html
 jobs:
   build:
     name: Test
