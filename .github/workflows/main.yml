@@ -16,7 +16,8 @@ jobs:
       - name: Run install
         uses: borales/actions-yarn@v4
         with:
-          cmd: --cwd 'frontend' install # will run `yarn install` command
+          cmd: install # will run `yarn install` command
+          dir: 'frontend'
           
       - name: Build production bundle
         uses: borales/actions-yarn@v4
