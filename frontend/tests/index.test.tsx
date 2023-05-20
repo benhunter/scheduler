@@ -3,8 +3,8 @@ import { render, screen } from '@testing-library/react'
 
 import App from '../src/App';
 
-test('renders learn react link', () => {
+test('renders title', () => {
   render(<App />);
-  const linkElement = screen.getByText(/count is/i);
-  expect(linkElement).toBeInTheDocument();
+  const title = screen.getByText(/Scheduler/i);
+  expect(title).toBeInTheDocument();
 });
